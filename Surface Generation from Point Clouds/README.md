@@ -58,13 +58,14 @@ Train a multilayer perceptron to approximate the signed distance function from s
 
 ```text
 .
+├── data
+│   ├── bunny-500.pts             # point cloud with normals
+│   ├── bunny-1000.pts            # point cloud with normals
+│   └── sphere.pts                # point cloud with normals
 ├── naiveReconstruction.py        # geometric SDF reconstruction
 ├── model.py                      # neural decoder architecture
 ├── neuralNetReconstruction.py    # training / validation / evaluation
 ├── utils.py                      # helper functions, dataset, visualization
-├── bunny-500.pts                 # point cloud with normals
-├── bunny-1000.pts                # point cloud with normals
-├── sphere.pts                    # point cloud with normals
 └── README.md
 ```
 
